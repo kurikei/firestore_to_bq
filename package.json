@@ -5,5 +5,12 @@
     "tslint-config-prettier": "1.17.0",
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.2.1"
+  },
+  "dependencies": {
+    "@types/dotenv": "6.1.0",
+    "@types/source-map-support": "0.4.1",
+    "dotenv": "6.2.0",
+    "googleapis": "35.0.0",
+    "source-map-support": "0.5.9"
   }
 }
