@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false, // stackdriver にログを吐くために利用する
+        "prettier": [
+            true,
+            {
+                "semi": false,
+                "singleQuote": true
+            }
+        ]
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"]
+}
+
