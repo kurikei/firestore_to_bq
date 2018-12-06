@@ -7,6 +7,8 @@
     "typescript": "3.2.1"
   },
   "dependencies": {
+    "@google-cloud/bigquery": "2.0.2",
+    "@google-cloud/storage": "2.3.1",
     "@types/dotenv": "6.1.0",
     "@types/source-map-support": "0.4.1",
     "dotenv": "6.2.0",
